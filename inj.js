@@ -14,5 +14,9 @@ setInterval(() => {
 
 function clickButtons()
 {
-	console.log("Click");
+	if (document.getElementsByName("approve_all")[0] !== undefined)
+	{
+		document.getElementsByName("approve_all")[0].click();
+		document.getElementsByClassName("layerConfirm _4jy0 _4jy3 _4jy1 _51sy selected _42ft")[0].click();
+	}
 }
