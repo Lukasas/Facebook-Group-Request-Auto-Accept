@@ -1,0 +1,13 @@
+{
+	"name": "Facebook Group Request Auto-Accept",
+	"version": "1.0",
+	"description": "Accepts facebook group requests.",
+	"author": "Lukáš Chábek",
+	"content_scripts": [
+		{
+		"matches": ["https://www.facebook.com/groups/*/admin_activities/"],
+		"js": ["inj.js"]
+		}
+	],
+	"manifest_version": 2
+}
