@@ -7,7 +7,7 @@ setTimeout(() => {
 }, 2000);
 
 
-setTimeout(location.reload, 5 * 1000 * 60);
+setTimeout(() => { location.reload(); }, 5 * 1000 * 60);
 
 function clickButtons()
 {
