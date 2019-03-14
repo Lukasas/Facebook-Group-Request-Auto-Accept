@@ -5,7 +5,7 @@
 	"author": "Lukáš Chábek",
 	"content_scripts": [
 		{
-		"matches": ["https://www.facebook.com/groups/*/admin_activities/"],
+		"matches": ["https://www.facebook.com/groups/*/requests/"],
 		"js": ["inj.js"]
 		}
 	],

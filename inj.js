@@ -1,11 +1,4 @@
-setTimeout(() => {
-	let member_parent_node = document.getElementById("count_badge_requests").parentElement;
-	member_parent_node.childNodes[1].click();
-	setTimeout(() => {
-		clickButtons();
-	}, 2000);
-}, 2000);
-
+setTimeout(() => { clickButtons(); }, 2000);
 
 setTimeout(() => { location.reload(); }, 5 * 1000 * 60);
 
